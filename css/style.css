@@ -28,7 +28,7 @@ body a:hover{
 
 /*-- top-nav --*/  
 .top-nav {
-    background: #2c7094;
+    background: #1F1F1F;
 }
 .nav > li {
     display: inline-block;
@@ -45,7 +45,7 @@ ul.nav.navbar li a {
     font-family: 'Text Me One', sans-serif;
 }
 ul.nav.navbar li a:hover,ul.nav.navbar li a.active{ 
-	color:#2c7094;
+	color:#1dadd3;
 	background:transparent;
 	outline:none;
 } 
