@@ -63,7 +63,7 @@ ul.nav.navbar li a:focus{
 .bnu-hover span::before {
 	content: attr(data-letters);
 	position: absolute;
-	color: #000;
+	color: rgb(255, 255, 255);
 	left: 0;
 	overflow: hidden;
 	white-space: nowrap;
@@ -86,7 +86,7 @@ ul.nav.navbar li a.bnu-icon{
     font-size: 1.2em; 
 }
 ul.nav.navbar li a.bnu-icon:hover {
-	color:#000;
+	color:#1dadd3;
 }
 
 /*-- //top-nav --*/
