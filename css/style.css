@@ -32,7 +32,7 @@ body a:hover{
 }
 .nav > li {
     display: inline-block;
-    padding: 1.5em 2em;
+    padding: 3.2em 2em;
 }
 ul.nav.navbar {
     margin: 0;
@@ -41,10 +41,10 @@ ul.nav.navbar {
 ul.nav.navbar li a {
     color: #fff;
     padding: 0;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-family: 'Text Me One', sans-serif;
 }
-ul.nav.navbar li a:hover,ul.nav.navbar li a.active{ 
+ul.nav.navbar li a:hover,ul.nav.navbar li a.active, button.navbar-toggle { 
 	color:#1dadd3;
 	background:transparent;
 	outline:none;
@@ -92,7 +92,7 @@ ul.nav.navbar li a.bnu-icon:hover {
 /*-- //top-nav --*/
 /*-- banner --*/  
 .video {
-	background:url(../images/cv)no-repeat;
+	"background:url(../images/cv);
     background-position:0px 0px;
 	text-align: left;
 	min-height: 100%;
@@ -182,7 +182,7 @@ h4.modal-title {
 }
 .about h4 {
     font-size: 1.2em;
-    color: #a5a5a5;
+    color: #eeeeee;
     margin-top: 1em;
 }
 
@@ -511,7 +511,7 @@ p {
 }
 .footer p {
     color: #fff;
-	font-size: 1.1em;
+	font-size: 1.2em;
 }
 .footer p a{
     color: #1dadd3;

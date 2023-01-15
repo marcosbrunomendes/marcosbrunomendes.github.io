@@ -1,4 +1,9 @@
 
+<!--
+Author: Marcos Bruno Mendes
+Author URL:  https://www.linkedin.com/in/marcos-bruno-mendes-120a79120/
+License: Creative Attribution 2.0 Mendes
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,8 +20,10 @@
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Custom Theme files -->
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
@@ -25,6 +32,7 @@
 <!-- //Custom Theme files -->
 <!-- js -->
 <script src="js/jquery-2.2.3.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <!-- //js -->
 <!-- web-fonts -->
 <link href='//fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
@@ -37,7 +45,9 @@
 		<div class="container">
 			<div class="navbar-header logo">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					Menu
+					<ul class="nav navbar"> 
+						<li><a><span class="glyphicon glyphicon-menu-hamburger"></span></a></li> 
+					</ul>
 				</button>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
@@ -49,10 +59,10 @@
 						<li><a href="#" data-toggle="modal" data-target="#skill" class="bnu-hover"><span data-letters="Skills">Skills</span></a></li>
 						<li><a href="#" data-toggle="modal" data-target="#experience" class="bnu-hover"><span data-letters="Experience">Experience </span></a></li>
 						<li><a href="#" data-toggle="modal" data-target="#education" class="bnu-hover"><span data-letters="Education">Education </span></a></li>
-						<li><a href="#" data-toggle="modal" data-target="#Certification" class="bnu-hover"><span data-letters="Certification">Certification</span></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#work" class="bnu-hover"><span data-letters="Work">Work</span></a></li>
 						<li><a href="#" data-toggle="modal" data-target="#contact" class="bnu-hover"><span data-letters="Contact">Contact </span></a></li> 
 						<li><a class="bnu-icon" href="https://www.linkedin.com/in/marcos-bruno-mendes-120a79120/
-							" target="_blank"><span class="glyphicon glyphicon-save"></span></a></li> 
+							" target="_blank"><span class="glyphicon glyphicon-download-alt"></span></a></li> 
 					</ul>
 					<div class="clearfix"> </div>
 				</div>
@@ -62,7 +72,7 @@
 	<!-- //top-nav -->
 	
 	<!-- banner --> 
-	<div class="video" data-vide-bg="video/cv">  
+	<div class="video" data-vide-bg="video/cv.mp4">  
 		<div class="container">
 			<div class="banner-text agileinfo-text">  
 				<h1>Marcos Bruno Mendes de Paula</h1> 
@@ -104,7 +114,7 @@
 								<li>
 									<ul class="agileits-address-text">
 										<li><b>Endereço </b></li>
-										<li>Blumenau & Joinville/SC.</li>
+										<li>Blumenau/SC.</li>
 									</ul>
 								</li>
 								<li>
@@ -135,9 +145,6 @@
 								Sou Marcos Bruno e sou natural do Paraná com formações nas áreas de engenharia e TI, paixão por experimentar, aprender novas habilidades focado em solucionar problemas. 
 								Minha paixão por Data Science começou em 2018, quando percebi uma nova geração de analíticos que possuem habilidades com números, por ter grande afinidade com exatas 
 								e adorar gráficos fiquei maravilhado com área. Desde então aprimoro meus conhecimentos em ciência de dados.
-								<br><br>
-								Atualmente foco meus esforços em aprender e desenvolver soluções relacionadas a Big Data, Data Science e Machine Learning. Possuo conhecimento em linguagem R,
-								 muitos de meus estudos são feitos em Python, através de suas famosas bibliotecas de análises científicas.
 							</p>
 						</div>
 					</div>
@@ -158,14 +165,14 @@
 					<div class="skills"> 
 						<div class="col-md-6 bar-grids">
 							<h4><span class="glyphicon glyphicon-cog"></span> Technical Skills </h4>
-							<h6>web design  <span> 60% </span></h6>
+							<h6>Banco de Dados<span> 75% </span></h6>
 							<div class="progress">
-								<div class="progress-bar progress-bar-striped active" style="width: 60%">
+								<div class="progress-bar progress-bar-striped active" style="width: 75%">
 								</div>
 							</div>
-							<h6>Linguagem R - in progress<span> 50% </span></h6>
+							<h6>Linguagem R Com Azure <span> 60% </span></h6>
 							<div class="progress  bnu-agile">
-								<div class="progress-bar progress-bar-striped active" style="width: 50%">
+								<div class="progress-bar progress-bar-striped active" style="width: 60%">
 								</div>
 							</div>
 							<h6>Python<span>90% </span></h6>
@@ -178,35 +185,35 @@
 								<div class="progress-bar progress-bar-striped active" style="width: 75%">
 								</div>
 							</div>
-							<h6>Java<span> 70% </span></h6>
+							<h6>Estatística<span> 92% </span></h6>
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped active" style="width: 92%">
+								</div>
+							</div>
+							<h6>Business Analytics<span> 88% </span></h6>
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped active" style="width: 88%">
+								</div>
+							</div>
+							<h6>ETL<span> 70% </span></h6>
 							<div class="progress">
 								<div class="progress-bar progress-bar-striped active" style="width: 70%">
 								</div>
 							</div>
-							<h6>SQL <span> 80% </span></h6>
+							<h6>Microsoft Power BI - in progress <span> 50% </span></h6>
 							<div class="progress">
-								<div class="progress-bar progress-bar-striped active" style="width: 80%">
-								</div>
-							</div>
-							<h6>Hadoop - in progress <span> 40% </span></h6>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped active" style="width: 40%">
-								</div>
-							</div>
-							<h6>Microsoft Power BI - in progress <span> 30% </span></h6>
-							<div class="progress">
-								<div class="progress-bar progress-bar-striped active" style="width: 30%">
+								<div class="progress-bar progress-bar-striped active" style="width: 50%">
 								</div>
 							</div>
 						</div> 
 						<div class="col-md-6 bar-grids  bnu-agile">
 							<h4><span class="glyphicon glyphicon-briefcase"></span> Professional Skills </h4>
-							<h6>Comunicação<span> 85% </span></h6>
+							<h6>Comunicação<span> 90% </span></h6>
 							<div class="progress">
-								<div class="progress-bar progress-bar-striped active" style="width: 85%">
+								<div class="progress-bar progress-bar-striped active" style="width: 90%">
 								</div>
 							</div>
-							<h6>Social media marketing<span> 75% </span></h6>
+							<h6>Criatividade<span> 75% </span></h6>
 							<div class="progress">
 								<div class="progress-bar progress-bar-striped active" style="width: 75%">
 								</div>
@@ -246,41 +253,16 @@
 					<div class="experience bnu-agileits-info">  
 						<div class="experience-grids">
 							<div class="experience-left">
-								<h3>2018 - Now </h3>
-								<h5>Autônomo</h5>
+								<h3>2023 - Now </h3>
+								<h5>Estudante</h5>
 							</div>
 							<div class="experience-right">
-								<h4>Data Science Jr</h4>
-								<p>Atualmente foco meus esforços em aprender e desenvolver soluções relacionadas a Big Data, Data Science e Machine Learning. Possuo conhecimento em linguagem R,
-									 muitos de meus estudos são feitos em Python, através de suas famosas bibliotecas de análises científicas.
+								<h4>Data Science Student</h4>
+								<p>Atualmente com foco em desenvolver soluções relacionadas a Data Science através de suas famosas bibliotecas de análises científicas.
 								</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div> 
-						<!--
-						<div class="experience-grids experience-grids-btm">
-							<div class="experience-left">
-								<h3>2013 - 2014</h3>
-								<h5>Company Name </h5>
-							</div>
-							<div class="experience-right">
-								<h4>Graphic Designer</h4>
-								<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="experience-grids bnu-agileits">
-							<div class="experience-left">
-								<h3>2011 - 2013</h3>
-								<h5>Company Name </h5>
-							</div>
-							<div class="experience-right">
-								<h4>Web Designer & Developer</h4>
-								<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					-->
 					</div>
 				</div> 
 			</div>
@@ -314,7 +296,7 @@
 						</div> 
 						<div class="experience-grids experience-grids-btm">
 							<div class="experience-left">
-								<h3>2020-2021<span>(430 hours of course - Studying)</span></h3>
+								<h3>2022<span>(430 hours of course)</span></h3>
 								<h5> DSA - Data science academy</h5>
 							</div>
 							<div class="experience-right">
@@ -368,23 +350,23 @@
 		</div>
 	</div>
 	<!-- //modal-education -->
-	<!-- modal-gallery -->
-	<div class="modal fade modal-gallery" id="Certification" tabindex="-1" role="dialog">
+	<!-- modal-gallery Work -->
+	<div class="modal fade modal-gallery" id="work" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content"> 
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title">Certification</h4> 
+					<h4 class="modal-title">My Work</h4> 
 				</div>
 				<div class="modal-body modal-spa">
 					<div class="gallery"> 
 						<div class="gallery-row"> 	
 							<div class="col-md-4 gallery-grids">
 								<div class="gallery-bnu-hover">
-									<a href="images/dsa1.jpg" data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley">
-										<img src="images/dsa1.jpg" class="img-responsive zoom-img" alt=""/>
+									<a href="https://github.com/marcosbrunomendes/Pizzarias-e-as-pizzas-que-vendem"  data-title="Sabores de pizza que mais vendem no EUA">
+										<img src="images/pizza_eua.jpg" class="img-responsive zoom-img" alt=""/>
 										<div class="view-caption">
-											<h5>View+</h5> 
+											<h5>Sabores de pizzas que mais vendem</h5>
 										</div>
 									</a>
 								</div>
@@ -518,7 +500,7 @@
 	<!-- footer -->
 	<div class="footer">
 		<div class="container">
-			<p>© 2020. All rights reserved | Design by <a target="_blank" href="effectMatriz.html">Marcos Bruno</a></p>
+			<p>© 2022. All rights reserved | Design by <a target="_blank" href="effectMatriz.html">Marcos Bruno Mendes</a></p>
 		</div>
 	</div>
 	<!-- //footer --> 
