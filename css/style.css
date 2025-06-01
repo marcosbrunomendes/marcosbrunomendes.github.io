@@ -341,9 +341,15 @@ p {
     margin: 0.5em 0;
     padding: 0 .5em;
 }
-.gallery-bnu-hover{
+.gallery-bnu-hover {
+    height: 220px; /* OU use aspect-ratio: 4/3 para manter proporção automática */
     overflow: hidden;
     position: relative;
+    border: 2px solid #22add3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -351,10 +357,12 @@ p {
     transition: all 0.5s;
     opacity: 1;
     filter: alpha(opacity=100);
-	border: 2px solid #22add3;
 }
+
 .gallery-bnu-hover img { 
 	width: 100%;
+    height: 100%;
+    object-fit: cover; /* ajusta sem deformar, cortando se necessário */
 }
 .gallery-bnu-hover .view-caption {
 	background-color: rgba(34 173 211 / 0.75);
